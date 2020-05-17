@@ -1,0 +1,17 @@
+* {
+	text-align: center;
+}
+
+footer {
+    background: #eee;
+    text-align: center;
+    margin: 0;
+}
+
+ul {
+	display: block;
+}
+
+li {
+	display: block;
+}
