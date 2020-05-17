@@ -1,7 +1,7 @@
-# PROJECT 2 GRADING RUBRIC
+# VIT FINAL PROJECT GRADING RUBRIC
 
 
-|Project Deliverables | 26 points| Points Received|  
+|Project Deliverables | PASS? (Y/N)|
 |---|---|---|
 |Student organizes files in a structured, easily navigable manner|2
 |Student provided a link to a repository on GitHub that includes frequent commits dating back to the very beginning of the project| 8
