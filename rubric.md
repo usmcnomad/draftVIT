@@ -1,7 +1,7 @@
 # VIT FINAL PROJECT GRADING RUBRIC
 
 
-|Project Deliverables | PASS? (Y/N)|
+|Project Deliverables | PASS? (Y/N)|---|
 |---|---|---|
 |Student organizes files in a structured, easily navigable manner|2
 |Student provided a link to a repository on GitHub that includes frequent commits dating back to the very beginning of the project| 8
