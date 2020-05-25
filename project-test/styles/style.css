@@ -3,34 +3,52 @@ header {
 }
 
 body {
+    font-family: Arial; 
+    color: #0E3837;
+    background-color: #F0F0F0;
+}
 
+.div-main {
+    position: relative;
+    justify-content: left;
+    overflow-x:hidden;
+    text-overflow: clip;
 }
 
 .container-template {
-    grid-template-columns: [vline1] 5px [vline2] 25% [vline3] 2px [vline4] 25% [vline5] auto [vline6] 40% [vline7];
-    grid-template-rows: [hline1] 10% [hline2] auto [hline3] 10% [hline4]; 
+    display: grid;
+    position: relative;
+    justify-content: left;
+    width: 100%;
+    grid-template-columns: repeat(4, 30%);
+    grid-auto-rows: minmax(5%, auto); 
+    grid-gap: 1px;
+    margin-top: 2px;
+    
 }
 
-.item-a {
-    grid-column-start: 1; 
-    grid-column-end: 2;
-    grid-row-start: 2;
-    grid-row-end: 3;
+.container-template > :nth-child(odd) {
+    align-items:stretch;
+    background-color: #F0F0F0;
 }
 
-.item-b {
-    grid-column-start: 3;
-    grid-column-end:4;
-    grid-row-start: 2;
-    grid-row-end: 3;
+.container-template > :nth-child(even) {
+    align-items: stretch;
+    background-color: #ADCCC6;
 }
 
-.item-c {
-    grid-column-start: 5;
-    grid-column-end: 6;
-    grid-row-start: 2;
-    grid-row-end: 3;
+.expand-div {
+    position: relative;
+    background-color:#F0F0F0;
+    opacity: 0;
 }
+
+.close-div {
+    position: relative;
+    background-color: #F0F0F0;
+    opacity: 1;
+}
+
 
 footer {
 
