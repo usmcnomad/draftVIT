@@ -13,6 +13,7 @@ body {
     justify-content: left;
     overflow-x:hidden;
     text-overflow: clip;
+    display: flex;
 }
 
 .container-template {
@@ -20,7 +21,7 @@ body {
     position: relative;
     justify-content: left;
     width: 100%;
-    grid-template-columns: repeat(4, 30%);
+    grid-template-columns: repeat(4, 24%);
     grid-auto-rows: minmax(5%, auto); 
     grid-gap: 1px;
     margin-top: 2px;
@@ -47,6 +48,11 @@ body {
     position: relative;
     background-color: #F0F0F0;
     opacity: 1;
+}
+
+.input-form {
+    width: 0%;
+    background-color: #ADCCC6;
 }
 
 
