@@ -19,8 +19,8 @@ body {
 .div-main {
     position: relative;
     justify-content: left;
-    overflow-x:hidden;
-    text-overflow: clip;
+    /* overflow-x:hidden; */
+    /* text-overflow: clip; */
     display: flex;
 }
 
@@ -34,6 +34,7 @@ body {
     grid-gap: 1px;
     margin-top: 2px;
     opacity: 0;
+    transition: width 0.25s;
     
 }
 
@@ -67,6 +68,7 @@ body {
     width: 100%;
     background-color: #ADCCC6;
     opacity: 1;
+    transition: width 0.25s;
 }
 
 .input-form-label {
